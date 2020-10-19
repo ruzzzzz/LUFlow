@@ -1,11 +1,11 @@
 LUFlow is an flow-based intrusion detection data set which contains a robust ground truth through correlation with threat intelligence services. 
 LUFlow contains telemetry containing emerging attack vectors through the composition of honeypots within Lancaster University's address space.
-The labelling mechanism is autonomous, enabling the constant capture, labelling and publishing of telemtry to this repository.
+The labelling mechanism is autonomous, enabling the constant capture, labelling and publishing of telemetry to this repository.
 Flows which were unable to be determined as malicious, but are not part of the normal telemetry profile are labelled as outliers. 
 
 # Features
 The telemetry is captured using Cisco's [Joy](https://github.com/cisco/joy) tool. This tool records multiple measurements associated with flows.
-The features extracted from the telemetry are outlined below:
+Features are engineered from these measurements, which are outlined below:
 
 | Name | Description |
 | --- | --- |
