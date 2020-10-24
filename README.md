@@ -3,6 +3,8 @@ LUFlow contains telemetry containing emerging attack vectors through the composi
 The labelling mechanism is autonomous, enabling the constant capture, labelling and publishing of telemetry to this repository.
 Flows which were unable to be determined as malicious, but are not part of the normal telemetry profile are labelled as outliers. 
 
+This data set is constantly updated using the [Citrus](https://github.com/ruzzzzz/Citrus) framework.
+
 # Features
 The telemetry is captured using Cisco's [Joy](https://github.com/cisco/joy) tool. This tool records multiple measurements associated with flows.
 Features are engineered from these measurements, which are outlined below:
