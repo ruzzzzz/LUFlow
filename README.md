@@ -1,7 +1,8 @@
+# Overview
 LUFlow is an flow-based intrusion detection data set which contains a robust ground truth through correlation with threat intelligence services. 
 LUFlow contains telemetry containing emerging attack vectors through the composition of honeypots within Lancaster University's address space.
 The labelling mechanism is autonomous, enabling the constant capture, labelling and publishing of telemetry to this repository.
-Flows which were unable to be determined as malicious, but are not part of the normal telemetry profile are labelled as outliers. Normal traffic is also captured from production services, e.g. ssh and database traffic, and included in this data set.
+Flows which were unable to be determined as malicious, but are not part of the normal telemetry profile are labelled as outliers. Known normal traffic is also captured from production services, e.g. ssh and database traffic, and included in this data set.
 
 This data set is constantly updated using the [Citrus](https://github.com/ruzzzzz/Citrus) framework. This repository is structured into the year and month the telemetry was captured. For example, to find telemtry captured within September 2020, the folder 2020/09 is used.
 
